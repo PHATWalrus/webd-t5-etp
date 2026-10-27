@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "alibi-exe",
+  "account_id": "0f37d26477a069fbd2177cb78ea5cf77",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-10-27",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": { "directory": ".open-next/assets", "binding": "ASSETS" },
+  "observability": { "enabled": true },
+  "vars": { "APP_ORIGIN": "https://alibi-exe.harshit-sinha2017.workers.dev", "AI_ENABLED": "true" },
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "alibi-exe",
+    "database_id": "fec5a7cb-4940-4e4e-b9df-68dbd1eb8831",
+    "migrations_dir": "migrations"
+  }],
+  "ratelimits": [
+    { "name": "API_LIMITER", "namespace_id": "1001", "simple": { "limit": 120, "period": 60 } },
+    { "name": "START_LIMITER", "namespace_id": "1002", "simple": { "limit": 10, "period": 60 } }
+  ]
+}

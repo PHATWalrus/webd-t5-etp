@@ -1,0 +1,4 @@
+APP_ORIGIN=http://localhost:3000
+AI_ENABLED=false
+RATE_LIMIT_SALT=replace-with-a-random-local-secret
+# Keep the production TypeSafe key out of local/preview environments.
