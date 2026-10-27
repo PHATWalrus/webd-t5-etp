@@ -4,6 +4,12 @@ A neobrutalist, five-round interrogation game for a college web development demo
 
 **Live:** https://alibi-exe.harshit-sinha2017.workers.dev
 
+## Demo and submission
+
+- **Source:** https://github.com/PHATWalrus/webd-t5-etp/tree/feat/alibi-exe
+- **Captioned workflow demo (3 minutes):** https://alibi-exe.harshit-sinha2017.workers.dev/demo/alibi-exe-demo.mp4
+- **Submission copy:** [docs/SUBMISSION.md](docs/SUBMISSION.md)
+
 ## Stack
 
 Next.js 16.4.3 / React 19.3.1, TypeScript, Tailwind v4, Radix Dialog, Driver.js 1.10.2, and an adapted React Bits Animated List. The responsive UI uses bold borders, offset shadows, and yellow/blue/orange paper panels with static headings. Bun 1.4.4 with a lockfile. Cloudflare Workers through OpenNext 1.20.13, Wrangler 4.153.0, and D1. Jev `jev-1.13.0` uses native server-side fetch.
