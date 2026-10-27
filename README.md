@@ -6,6 +6,10 @@ A neobrutalist, five-round interrogation game for a college web development demo
 
 ## Demo and submission
 
+[![Watch the ALIBI.exe demo](public/demo/alibi-exe-poster.png)](https://alibi-exe.harshit-sinha2017.workers.dev/demo/alibi-exe-demo.mp4)
+
+**Click the preview to watch the 3-minute captioned demo:** scenario and role selection, the walkthrough, evidence inspection, five live Jev rounds, refresh/resume recovery, and the final verdict.
+
 - **Source:** https://github.com/PHATWalrus/webd-t5-etp/tree/feat/alibi-exe
 - **Captioned workflow demo (3 minutes):** https://alibi-exe.harshit-sinha2017.workers.dev/demo/alibi-exe-demo.mp4
 - **Submission copy:** [docs/SUBMISSION.md](docs/SUBMISSION.md)
